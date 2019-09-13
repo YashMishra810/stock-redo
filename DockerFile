@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8005
+ADD Stock.jar Stock.jar 
+ENTRYPOINT ["java","-jar","Stock.jar"]
